@@ -23,8 +23,6 @@ h1 {
 }
 
 .app {
-  width: 100%;
-  height: 100vh;
   position: relative;
   background-color: #0093e9;
   background-image: linear-gradient(160deg, #0093e9 0%, #1d2d2a 100%);
