@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 h1 {
   font-size: 6rem;
@@ -30,17 +30,6 @@ h1 {
   background-image: linear-gradient(160deg, #0093e9 0%, #1d2d2a 100%);
 
   color: aliceblue;
-}
-
-.app::before {
-  content: '';
-  background: url('./assets/sunset.jpg') no-repeat center center/cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .app .search {
@@ -63,7 +52,7 @@ h1 {
 
 .container {
   max-width: 700px;
-  height: 700px;
+  height: 100vh;
   margin: auto;
   padding: 0 1rem;
   position: relative;
@@ -81,13 +70,19 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  font-size: 1rem;
   width: 100%;
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.2);
 }
-
+.feels,
+.humidity,
+.wind {
+  padding: 5px;
+  font-size: 4px;
+}
 .bold {
   font-weight: 700;
 }
